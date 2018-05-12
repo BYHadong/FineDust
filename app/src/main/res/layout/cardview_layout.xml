@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/cardview_stationnmae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="stationname"
+                />
+
+            <TextView
+                android:id="@+id/cardview_dusttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dustTime"
+                android:layout_alignParentRight="true"
+                />
+
+            <TextView
+                android:id="@+id/cardview_pm10value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pm10value"
+                android:layout_below="@+id/cardview_stationnmae"
+                android:layout_marginTop="16dp"
+                />
+
+            <TextView
+                android:id="@+id/cardview_pm25value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pm25value"
+                android:layout_below="@+id/cardview_pm10value"
+                android:layout_marginTop="16dp"
+                />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
